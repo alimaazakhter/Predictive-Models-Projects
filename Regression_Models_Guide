@@ -1,0 +1,35 @@
+Q1. The predicutive model which i am building i am using linear regresstion, lasso, ridge, elasticnet. Let's know What are these..!!
+->  1️⃣ Linear Regression
+This is the most basic and simple regression technique. The model draws a straight line that best fits the data, helping us make predictions.
+
+📌 Example:
+If we look at the relationship between temperature and ice cream sales, as the temperature increases, ice cream sales also increase. 
+Linear Regression will draw a straight line to predict this trend.
+
+2️⃣ Lasso Regression (L1 Regularization)
+Lasso is an upgraded version of Linear Regression. It removes unimportant variables (features) by setting them to zero, making the model simpler and cleaner.
+
+📌 Example:
+If you're building a house price prediction model and your dataset has 100 features (like area, rooms, location, parking, etc.), 
+Lasso will keep only the important features and set the rest to zero.
+
+3️⃣ Ridge Regression (L2 Regularization)
+Ridge is also an improved version of Linear Regression, but it does not remove features. Instead, it makes their impact smaller by reducing their coefficients.
+This helps solve the overfitting problem.
+
+📌 Example:
+If you're predicting student marks based on attendance, study hours, and extra activities, but your model is overfitting (performing well on training data but failing on new data), 
+Ridge will adjust the coefficients to make the model generalize better.
+
+4️⃣ ElasticNet Regression
+ElasticNet is a combination of Lasso and Ridge. This means it can remove unimportant features (like Lasso) and also control the impact of remaining features (like Ridge).
+
+📌 Example:
+If you're building a medical model to predict diseases in patients, and your dataset has many features, ElasticNet will automatically use the best approach to ensure accurate
+predictions.
+
+💡 TL;DR (Quick Summary)
+✅ Linear Regression – Just fits a straight line to the data.
+✅ Lasso Regression – Removes unnecessary features (sets them to zero).
+✅ Ridge Regression – Doesn’t remove features, but reduces their impact.
+✅ ElasticNet Regression – A mix of Lasso & Ridge (best of both).
