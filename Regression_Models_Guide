@@ -33,3 +33,28 @@ predictions.
 ✅ Lasso Regression – Removes unnecessary features (sets them to zero).
 ✅ Ridge Regression – Doesn’t remove features, but reduces their impact.
 ✅ ElasticNet Regression – A mix of Lasso & Ridge (best of both).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. What is Overfitting?
+-> Overfitting happens when a machine learning model learns the training data too well, so much that it fails to perform well on new (unseen) data.
+
+🤯 Think of it like this:
+Imagine a student who memorizes all the answers for an exam without actually understanding the concepts. If the exact same questions appear in the exam, 
+he will do great. But if the questions are slightly different, he will struggle!
+
+How does this happen in ML?
+The model becomes too complex and memorizes patterns from training data instead of learning general trends.
+It performs very well on training data but poorly on test data.
+Instead of learning, it remembers the data like a parrot 🦜.
+How to detect overfitting?
+✅ High accuracy on training data but low accuracy on test data
+✅ Training error is very low, but test error is high
+✅ Model is too complex without real improvement in performance
+
+How to avoid overfitting?
+1️⃣ Use more data (More examples help the model learn better patterns)
+2️⃣ Feature selection (Use only important inputs, remove unnecessary ones)
+3️⃣ Regularization (Use Lasso, Ridge, or ElasticNet to prevent the model from becoming too complex)
+4️⃣ Cross-validation (Train and test on multiple subsets of data to check if the model is generalizing well)
+
